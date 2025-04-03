@@ -8,3 +8,5 @@ jobs:
          run: echo "Helloe world depeu"
        - name: Print good bye
          run: echo "Done - bye"
+       - name: Say backhache
+         run: echo $(date)
