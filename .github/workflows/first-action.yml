@@ -1,0 +1,10 @@
+name: First workflow deepu
+on: workflow_dispatch
+jobs: 
+  first-job-deepu:
+     runs-on: ubuntu-latest
+     steps: 
+       - name: Print greeting
+         run: echo "Helloe world depeu"
+       - name: Print good bye
+         run: echo "Done - bye"
